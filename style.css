@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+*{
+    padding: 0;
+    margin :0;
+   
+}
+
+@media only screen and (min-width:340px) and (max-width: 720px) {
+   
+    header{
+        background-image: url(images/bg-main-mobile.png);
+        background-size: 100% 100%;
+        height: 240px ;
+        width: 92vw;
+        padding: 4vw;
+        padding-left: 10vw;
+    }
+    #backCard {
+    /* position: absolute; */
+    background-image: url(images/bg-card-back.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* padding: 27vw 42vw; */
+    margin: 0 40px;
+    width: 276px;
+    height: 187px;
+     
+    }
+    p{
+        width: 138px;
+        text-align: end; 
+    /* text-align: end; */
+  
+    }
+    #frontCard {
+    margin: -78px 0 0 0px;
+
+    background-image: url(images/bg-card-front.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 276px;
+    height: 187px;
+    top: 106px;
+    right: 17px;
+    color: white;
+    }
+    #frontCardContent{
+        padding-left: 15PX;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #frontCardContent div{
+        display: flex;
+        justify-content: space-around;
+    }
+    #frontCardContent div{
+        width: max-content};
+    #cardLogo{
+
+    }
+    form{
+        margin-top: 16vh;
+        display: flex;
+        flex-direction: column;
+        width: 34vw;
+        /* padding: 91px; */
+        height: 54vh;
+        justify-content: space-evenly;
+        margin-left: 19vw;
+        padding-right: 2vw;
+    }
+    label{
+        text-transform: uppercase;
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: bold;
+    }
+    input{
+        border-radius: 5px;
+        height: 6vh;
+        font-size: large;
+        border: darkgrey solid 1px;
+    }
+    .smallInput{
+       width: 16VW; 
+       text-align: center;
+    }
+    #cvcLabel{
+        margin-left: 5vw;
+    }
+    #cardNumberInput{
+        display: flex;
+        justify-content: space-between;
+    }
+    #cvcInput{
+        width: 38vw;   }
+ button{
+    font-weight: bold;
+    background-color: #220a30;
+    height: 7vh;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+ }}
+ @media only screen and (min-width: 721px) {
+    body{display: flex;}
+    header{
+        background-image: url(images/bg-main-mobile.png);
+        background-size: 100% 100%;
+        width:35vw;
+     height: 100vh;
+        max-width: 375px;
+        padding: 20px;
+
+    }
+    #backCard {
+        background-image: url(images/bg-card-back.png);
+        background-size: 100% 100%;
+        padding: 100px 161px;
+        margin: 0px 9vw;
+        margin-top: 300px;
+    }
+
+   
+    #backCard p{
+        width: 113px;
+    }
+    #frontCard {
+        position: absolute;
+        background-image: url(images/bg-card-front.png);
+        background-size: 100% 100%;
+        margin: -10px 0 0px 8vw;
+        width: 315px;
+        height: 200Px;
+        top: 106px;
+        color: white;
+    }
+    p{
+        width: 131px;
+        text-align: end; 
+    /* text-align: end; */
+  
+    }
+    #frontCardContent{
+        padding-left: 15PX;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #frontCardContent div{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+  
+    #cardLogo{
+
+    }
+    form{
+        margin-top: 16vh;
+        display: flex;
+        flex-direction: column;
+        width: 34vw;
+        /* padding: 91px; */
+        height: 54vh;
+        justify-content: space-evenly;
+        margin-left: 21vw;
+        padding-right: 2vw;
+    }
+    label{
+        text-transform: uppercase;
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: bold;
+    }
+    input{
+        border-radius: 5px;
+        height: 6vh;
+        font-size: large;
+        border: darkgrey solid 1px;
+    }
+    .smallInput{
+        width: 6VW;
+       text-align: center;
+    }
+    #cvcLabel{
+        margin-left: 5vw;
+    }
+    #cardNumberInput{
+        display: flex;
+        justify-content: space-between;
+    }
+    #cvcInput{
+        width: 20vw;   }
+ button{
+    font-weight: bold;
+    background-color: #220a30;
+    height: 7vh;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+ }
+ }
